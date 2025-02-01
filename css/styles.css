@@ -266,6 +266,18 @@ img {
   letter-spacing: 0.02em;
 }
 
+.features-pict {
+  background-color: #f4f4fd;
+  border: 1px solid var;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
 /* ----------- TEAM -----------*/
 .team {
   background-color: #f4f4fd;
@@ -441,3 +453,11 @@ img {
   letter-spacing: 0.02em;
   max-width: 264px;
 }
+/* 
+.footer-social {
+  color: #f4f4fd;
+  font-size: 16px;
+  line-height: 1.5em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+} */
