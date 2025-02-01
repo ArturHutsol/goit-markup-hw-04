@@ -102,6 +102,10 @@ img {
   gap: 40px;
 }
 
+.header-menu-item {
+  position: relative;
+}
+
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
@@ -109,6 +113,16 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+}
+
+.blue-stripe {
+  position: absolute;
+  background-color: #404bbf;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  left: 0;
+  top: 44px;
 }
 
 .header-menu-link:hover {
