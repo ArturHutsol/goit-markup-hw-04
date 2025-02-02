@@ -286,11 +286,6 @@ img {
   padding-bottom: 120px;
 }
 
-/* .team-container {
-  display: flex;
-  align-items: baseline;
-} */
-
 .team-title {
   background-color: #f4f4fd;
   color: #2e2f42;
@@ -342,11 +337,13 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .team-soc-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 .team-soc-item {
   width: 40px;
@@ -360,10 +357,24 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-soc-link:hover {
+  background-color: #404bbf;
+}
+
+.team-soc-link:focus {
+  background-color: #404bbf;
 }
 
 .team-soc-icon {
   fill: #f4f4fd;
+}
+
+.team-list-item:first-child {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* ----------- PORTFOLIO -----------*/
